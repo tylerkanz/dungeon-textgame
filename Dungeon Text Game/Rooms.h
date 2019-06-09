@@ -71,7 +71,6 @@ void start() {
 	cin >> choice;
 
 	if (choice == 1) {
-		cout << "It worked" << endl;
 		arlington();
 	}
 
