@@ -10,6 +10,6 @@ using namespace std;
 int main()
 {
 
-	start_room();
-	system("pause");
+	start_menu();
+	
 }

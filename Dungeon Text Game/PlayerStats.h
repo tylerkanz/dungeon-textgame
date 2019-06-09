@@ -8,7 +8,7 @@ using namespace std;
 int health = 100;
 
 void death() {
-	if (health = 0)
+	if (health == 0)
 		cout << "You have died!" << endl;
 }
 
