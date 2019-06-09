@@ -18,13 +18,14 @@ void cave_start() {
 
 void start() {
 	int choice;
+	cout << endl;
 	cout << "Its a foggy wet night on the road and you come to a crossroads with a tavern on the right." << endl;
 	cout << "(1) Take the left path to Arlington."<< endl;
 	cout << "(2) Take the right path to the spooky cave." << endl;
 	cin >> choice;
 
 	if (choice == 1) {
-		cout << "It worked" << endl;
+		arlington();
 	}
 
 	else if (choice == 2) {
@@ -32,7 +33,9 @@ void start() {
 	}
 
 	else
+		cout << endl;
 		cout << "Not a valid response.";
+		cout << endl;
 }
 
 void start_menu() {
@@ -51,8 +54,10 @@ void start_menu() {
 		}
 
 		else
-			cout << "Not a valid response.";
-
+			cout << endl;
+			cout << "Not a valid response." << endl;
+			cout << endl;
+			start_menu();
 }
 
 
