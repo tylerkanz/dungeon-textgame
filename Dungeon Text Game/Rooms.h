@@ -7,29 +7,31 @@ using namespace std;
 
 
 //This is where we will put room functions
-
-void arlington() {
-
-}
-
-void cave_start() {
+void tavern_corner() {
 
 }
 
-void start() {
+void tavern_socialize() {
+
+}
+
+
+void tavern() {
 	int choice;
 	cout << endl;
-	cout << "Its a foggy wet night on the road and you come to a crossroads with a tavern on the right." << endl;
-	cout << "(1) Take the left path to Arlington."<< endl;
-	cout << "(2) Take the right path to the spooky cave." << endl;
+	cout << "To the tavern!" << endl;
+	cout <<	"As you approach the tavern you can smell the scent of oaken caskets full of ale and cheap wine." << endl;
+	cout << "(1) Sit by yourself in the corner."<< endl;
+	cout << "(2) Sit at the bar and socialize." << endl;
+	//Will add a leave the bar function later on.
 	cin >> choice;
 
 	if (choice == 1) {
-		arlington();
+		tavern_corner();
 	}
 
 	else if (choice == 2) {
-		cave_start();
+		tavern_socialize();
 	}
 
 	else
@@ -37,6 +39,34 @@ void start() {
 		cout << "Not a valid response.";
 		cout << endl;
 }
+
+void arlington() {
+	int choice;
+	cout << endl;
+	cout << "As you walk into this small town you realize that there is only a single sign of life. A tavern with the lights on and music playing." << endl;
+	cout << "(1) Enter the Tavern."<< endl;
+	cout << "(2) Return to the crossroads." << endl;
+	cin >> choice;
+
+	if (choice == 1) {
+		tavern();
+	}
+
+	else if (choice == 2) {
+		start();
+	}
+
+	else
+		cout << endl;
+		cout << "Not a valid response.";
+		cout << endl;
+}
+
+void cave_start() {
+
+}
+
+
 
 void start_menu() {
 	int choice;
