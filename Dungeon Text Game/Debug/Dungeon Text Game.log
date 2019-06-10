@@ -1,0 +1,5 @@
+﻿  Dungeon Text Game.cpp
+c:\users\tk\source\repos\dungeon text game\dungeon text game\playerstats.h(15): warning C4552: '-': result of expression not used
+c:\users\tk\source\repos\dungeon text game\dungeon text game\playerstats.h(20): warning C4552: '+': result of expression not used
+c:\users\tk\source\repos\dungeon text game\dungeon text game\rooms.h(218): warning C4717: 'start_menu': recursive on all control paths, function will cause runtime stack overflow
+  Dungeon Text Game.vcxproj -> C:\Users\TK\source\repos\Dungeon Text Game\Debug\Dungeon Text Game.exe
