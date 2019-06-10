@@ -5,8 +5,16 @@
 
 using namespace std;
 
+void cave_start() {
+
+}
 
 //This is where we will put room functions
+
+void crossroads() {
+
+}
+
 void tavern_corner() {
 
 }
@@ -14,7 +22,6 @@ void tavern_corner() {
 void tavern_socialize() {
 
 }
-
 
 void tavern() {
 	int choice;
@@ -53,7 +60,7 @@ void arlington() {
 	}
 
 	else if (choice == 2) {
-		start();
+		crossroads();
 	}
 
 	else
@@ -84,12 +91,6 @@ void start() {
 		cout << endl;
 }
 
-void cave_start() {
-
-}
-
-
-
 void start_menu() {
 	int choice;
 	cout << "Welcome to the Cave!" << endl;
@@ -111,9 +112,6 @@ void start_menu() {
 			cout << endl;
 			start_menu();
 }
-
-
-
 
 void end_room() {
 
