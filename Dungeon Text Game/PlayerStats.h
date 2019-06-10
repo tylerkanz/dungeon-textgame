@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
@@ -34,4 +34,33 @@ void lvl5_attack() {
 
 void lvl6_attack() {
 	health - 20;
+}
+
+void defense(int m, int x) {
+	x + m;
+}
+
+void strength(int m) {
+	if (m = 1){
+		lvl1_attack();
+	}
+	else if (m = 2) {
+		lvl2_attack();
+	}
+	else if (m = 3) {
+		lvl3_attack();
+	}
+	else if (m = 4) {
+		lvl4_attack();
+	}
+	else if (m = 5) {
+		lvl5_attack();
+	}
+	else if (m = 6) {
+		lvl6_attack();
+	}
+	else {
+		cout << "ATTACK FUNCTION FAILURE" << endl;
+	}
+
 }

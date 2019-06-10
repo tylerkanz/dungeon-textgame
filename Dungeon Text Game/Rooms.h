@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
+#include "PlayerStats.h"
 
 using namespace std;
 
