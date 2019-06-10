@@ -1,8 +1,7 @@
-#include<iostream>
+#include <iostream>
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
-#include "PlayerStats.h"
 
 using namespace std;
 
@@ -94,7 +93,7 @@ void start() {
 
 void start_menu() {
 	int choice;
-	cout << "Welcome to the Cave!" << endl;
+	cout << "Welcome to The Cave!" << endl;
 	cout << "Enter (1) to begin your adventure!" << endl;
 	cout << "Enter (2) to exit." << endl;
 	cin >> choice;
